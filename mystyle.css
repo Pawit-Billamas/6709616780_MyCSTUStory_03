@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@media screen and (min-width: 300px) {
-    body {
-        font-size: 16px;
-    }
-}
+
 /* Global Styles */
 * {
     padding: 0;
@@ -40,6 +36,7 @@ html, body { /* Fix blank space */
     top: 0;
     width: 100%;
     z-index: 999;
+    
 }
 .navbar ul {
     list-style-type: none;
@@ -47,6 +44,7 @@ html, body { /* Fix blank space */
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    
 }
 .navbar a {
     color: white;
@@ -85,6 +83,7 @@ header {
     width: 900px;
     text-align: right;
     margin-right: 20px;
+    
 }
 h3 {
     color: #ffffff;
@@ -98,6 +97,17 @@ h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 50px;
+}
+@media screen and (max-width: 768px) {
+    .content {
+        text-align: center;
+    }
+    .myname {
+        font-size: 60px;
+    }
+    h3, h4 {
+        font-size: 30px;
+    }
 }
 /* Finish */
 
