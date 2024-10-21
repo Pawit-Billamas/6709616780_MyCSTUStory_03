@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Styles */
+* {
+    padding: 0;
+    margin: auto;
+}
+html, body { /* Fix blank space */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #999;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Navbar */
+.navbar {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: #193311;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li {
+    float: left;
+}
+
+/* Backgroundpicture */
+header {
+    height: 900px;
+    display: flex;
+    background-image: url(resources/19437.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+/* Hello my name is pawit */
+.myname {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: #F6BE00;
+    font-weight: bold;
+}
+.content {
+    position: flex;
+    width: 900px;
+    text-align: right;
+    margin-right: 20px;
+}
+h3 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+h4 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+/* Finish */
+
+/* Video */
+.videocontent {
+    padding: 10px;
+    text-align: center;
+    background-color: #ecedd4;
+}
+#video {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 2px dotted #000000;
+}
+.introductiontxt {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    color: #204116;
+    font-weight: bold;
+    margin: 50px;
+}
+section {
+    margin: 0 auto;
+}
+.vidzdescript {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #204116;
+}
+/* Finish*/
+
+/* About me*/
+.aboutme {
+    text-align: center;
+    background-color: #204116;
+    border: 1px solid #204116;
+}
+.aboutmetitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    color: #F6BE00;
+    font-weight: bold;
+    text-align: center;
+}
+.image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme-img-con {
+    width: 50%; /* Adjust as needed */
+    height: 40%; /* Adjust as needed */
+    border: 5px solid #525252; /* Optional: Add a border for a window-like effect */
+    margin: 10px; /* Adjust for spacing between containers */
+}
+.aboutme-img-con img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images fill their containers */
+}
+.aboutmetxtcon {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 100%;
+    line-height: 1.5; /* Adjust the line height for better spacing */
+}
+.mobas {
+    color: aqua;
+    font-style: italic;
+}
+details {
+    color: aqua;
+    font-size: medium;
+}
+/* Finish*/
+
+/* Contact*/
+.contact {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #ecedd4;
+    color:#204116
+}
+.listcon {
+    margin-left: 100px;
+    font-size: 30px;
+}
+/* Finish*/
+
+/* Other Text Styles */
+
+.para2 {
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.introtext {
+    text-align: center;
+}
+
+
+/* journey html */
+
+/* My Journey to.. */
+.header{
+    background-color: #193311;
+}
+#journey {
+    padding-top: 0px;
+    border: 0.0005px solid #193311; /* Adjust this value as needed */
+}
+#journey h2{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+/* Finish */
+   
+/* My Roadmap */
+.blog-title{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    background-color: #ecedd4;
+    height: 150px; /* Adjust the height as needed */
+    padding: 60px; /* Add padding to create space around the title */
+    display: flex;
+}
+/* Finish */
+
+/* Year 1-4*/
+.mainblog-con{
+    background-color: #193311;
+}
+.blog-title h3{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #204116;
+}
+.blog-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 2rem;
+}
+.blog-item {
+    margin: 1rem ; 
+}
+.blog-item img{
+    width: 100%;
+    height: 50%;
+}
+.blog-item ul {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 20px;
+}
+.blog-item h4 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+/* Finish */
+
+
+
+/* Future html */
+.section {
+    background-color: #193311;
+    border: 0.0005px solid #193311 ;
+}
+/* My Future Aspirations */
+#future h2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+/* Finish */
+
+/* Goals Styles */
+.goals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ecedd4;
+}
+.goal-item {
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #F6BE00;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 200px; /* Ensures a minimum height but allows growth */
+    width: 100%; /* Allows full-width in smaller screens */
+    box-sizing: border-box; /* Includes padding in width/height */
+}
+.goal-item p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    word-wrap: break-word; /* Ensures text wraps properly */
+}
+.goal-item h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+.goal-icon {
+    font-size: 4px;
+    margin-bottom: 10px;
+}
+/* Finish*/
+
+/* My Vision for the future */
+.future-para {
+    background-color: #193311;
+    border: 5px solid #193311;
+}
+.future-bottom{
+    text-align: center;
+    margin: 10px;
+}
+.future-bottom h3{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+.future-bottom p{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.spacefuture{
+    margin: 10px;
+}
+.futurecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.futureitem {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.futureitem img {
+    max-width: 100%;
+    max-height: 100%;
+  } 
+.futuretext {
+    flex: 1;
+    padding: 20px;
+  }
+/* Finish*/
